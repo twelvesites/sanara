@@ -1,0 +1,39 @@
+@media only screen and (max-width: 578px) {
+    .herotext {
+        font-size: 3em;
+        padding-top: 20%;
+        text-align: center;
+        margin: 0;
+    }
+    #hero h5 {
+        text-align: center;
+        padding-top: 10%;
+    }
+    #explore {
+        display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     
+    }
+}
+@media only screen and (max-width: 458px) {
+    .herotext {
+        font-size: 45px;
+        padding-top: 40%;
+        text-align: center;
+    }
+    #hero h5 {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .herotext {
+        font-size: 35px;
+        padding-top: 50%;
+        text-align: center;
+        margin: 0;
+    }
+    #hero h5 {
+        text-align: center;
+        padding-top: 10%;
+    }
+}
